@@ -8,7 +8,6 @@ ArtificialPet::ArtificialPet() {
 
 bool ArtificialPet::isHungry() {
     //bool hungry_status =true
-    std::cout << fullness <<std::endl;
     if (fullness <0) {
         return true;
     }
